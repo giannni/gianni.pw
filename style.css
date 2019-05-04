@@ -67,9 +67,3 @@ h1:hover{
   color: white;
   text-align: center;
 }
-div a img {
-	height:0%;
-	width:0%;
-	display: none;
-	visibility: hidden;
-}
