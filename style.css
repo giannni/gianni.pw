@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "pixel";
+    src: url("pixel.ttf"); 
+}
+
+body {
+    background-color: black;
+    font-family: "pixel";
+	font-size: 12px;
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+img {
+    height: 190px;
+    width: 340px;
+    float: left;
+    display: inline-block;
+    margin-right: 5px;
+}
+p {
+    font-size: 10px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+	font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+	color: #fff;
+    text-decoration: none;
+}
+
+h1:hover{
+	 text-decoration: none;
+}
+#elements {
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    height: 189px;
+}
+#urls, #shouts {
+    position: absolute;
+    top: 20%;
+}
+.sections:hover {
+    cursor: pointer;
+}
+#min {
+    min-width: 1000px;
+    min-height: 220px;
+    display: inline-block
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+div a img {
+	height:0%;
+	width:0%;
+	display: none;
+	visibility: hidden;
+}
