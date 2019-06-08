@@ -9,6 +9,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+	cursor: url(./cursors/3D_red_normalselect.cur);
 }
 img {
 	display: block;
