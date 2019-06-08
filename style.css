@@ -9,7 +9,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-	cursor: url('https://gianni.pw/cursors/3D_red_normalselect.cur'), auto;
+	cursor: url('https://gianni.pw/cursors/redcursor.png'), auto;
 }
 img {
 	display: block;
