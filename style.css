@@ -61,5 +61,5 @@ h1:hover{
 	 text-decoration: none;
 }
 .sections:hover {
-    cursor: pointer;
+    cursor: url(./cursors/redcursor.png), auto;
 }
