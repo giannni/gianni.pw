@@ -5,10 +5,8 @@
 body {
 	background-image: url("./img/background.gif");
 	background-size: contain;
+	background-repeat: no-repeat;
     font-family: "verdana";
-    -webkit-user-select: none;       
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
 	cursor: url(./cursors/redcursor.png), auto;
 }
