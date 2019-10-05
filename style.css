@@ -4,7 +4,7 @@
 
 body {
 	background-image: url("./img/background.gif");
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
     font-family: "verdana";
     user-select: none;
