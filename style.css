@@ -4,7 +4,9 @@
 
 body {
 	background-image: url("./img/background.gif");
-	background-repeat: no-repeat;
+	background-position:fixed; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
     font-family: "verdana";
     user-select: none;
 	cursor: url(./cursors/redcursor.png), auto;
