@@ -1,0 +1,35 @@
+body{
+	background-image: url(original.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "verdana";
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p{
+	font-size: 11px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+	top: 50%;
+}
+
+#info
+{
+	padding: 400px;
+	text-align: center;
+}
+
+h1{
+	font-size: 12px;
+    color: #fff;
+}
+
+a {
+	font-size: 60px;
+    color: #fff;
+    text-decoration: none;
+}
