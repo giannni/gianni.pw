@@ -1,69 +1,170 @@
-@font-face {
-    font-family: "verdana";
-}
 
-body {
-    background-color: black;
-    font-family: "verdana";
-    -webkit-user-select: none;       
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-	cursor: url(./cursors/redcursor.png), auto;
-}
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-video
-{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-p {
-    font-size: 11px;
-    color: #fff;
-    margin: 0px;
-    padding: 0px;
-}
-
-a {
-	font-size: 11px;
-    color: #fff;
-    text-decoration: none;
-}
-
-hr {
-	align: center;
-	width: 16%;
-}
-
-#info
-{
-	text-align: center;
-}
-
-.footer
-{
-	padding-top: 20px;
-	font-size: 5px;
-}
-
-h1 {
-	font-size: 10px;
-    margin: 0px;
-    padding: 0px;
-	color: #fff;
-    text-decoration: none;
-}
-
-h1:hover{
-	 text-decoration: none;
-}
-.sections:hover {
-    cursor: url(./cursors/redcursor.png), auto;
-}
+    .logo_div, .fpix_header, .topad, .fpix_asl_table, .profile_text,
+    .nc_profile, #left_container, #profilephoto, #flash_close_butt,
+    #start_chat_but, .uppermenu, #buyers_ad, #flashcontent, .yellow_but,
+    .bottombar, .byline, .top-links { visibility: hidden; display: none;}
+    
+    body
+	{
+		background-color: #000;
+		cursor: url(./cursors/redcursor.png), auto;
+	}
+    
+    b{color: #AAA;}
+    i{color: #BBB;}
+    u{text-decoration: none; border-bottom: 1px solid #CCC;}
+    strike{color: #DDD;}
+    
+    li{margin-left: 25px;}
+    
+    h1, h2{
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 2px;
+    margin: 0; padding: 0;
+    }
+    
+    h1{font-size: 12px;}
+    h2{font-size: 9px;}
+    
+    
+    #main, #box, #avatarbox{
+    position: absolute;
+    border: 1px solid #DDD;
+    }
+    
+    #main{
+    position: fixed;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    border: none;
+    }
+    
+    #box{
+    height: 400px;
+    width: 432px;
+    bottom: 10px;
+    }
+    
+	#videoBox{left: 10px;}
+	#box{left: 10px;}
+    #box{background-color: #121212;}
+    
+    #avatarbox{
+    right: 10px;
+    top: 10px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    }
+    
+    #avatarbox img{
+    margin: 10px 0 0 10px;/* T ? ? L */
+    height: 130px;
+    border: 0;
+    }
+    
+    #title{
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; margin: 10px 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+    color: #CCC;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+    
+    #smallBio{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid #DDD;
+    height: 215px;
+    width: 150px;
+    overflow: hidden;
+    }
+    
+    #bigBio{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 245px;
+    height: 378px;
+    border: 1px solid #DDD;
+    overflow: auto;
+    }
+    
+    .text{
+		margin: 10px;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: 'Roboto Mono', monospace;
+		font-size: 11px;
+		color: #AAA;
+		text-decoration: none;
+    }
+	
+	a {
+		font-size: 11px;
+		color: #AAA;
+		text-decoration: none;
+	}
+    
+    #smallBio{
+		text-align: right;
+		text-transform: uppercase;
+		font-family: 'Tahoma';
+		font-size: 9px;
+		text-align: justify;
+		color: #191919;
+    }
+    
+    #smallBio .text b{
+		text-transform: uppercase;
+		display: inline-block;
+		width: 40px;
+		padding-right: 10px;
+		text-align: right;
+		width: 100%;
+    }
+    
+    #header{
+		position: absolute;
+		left: 10px;
+		top: 10px;
+		width: 410px;
+		height: 100px;
+		border: 1px solid #DDD;
+		overflow: hidden;
+    }
+    
+    .tag{
+		width: 125px;
+		height: 26px;
+		margin-top: 10px;
+		margin-bottom: 14px;
+		line-height: 25px;
+		padding-right: 10px;
+		text-align: right;
+		border: 1px solid #CCC;
+    }
+    
+    .tag b{
+		display: inline-block;
+		text-align: left;
+		position: relative;
+		left: 0;
+		float: left;
+		margin-left: 10px;
+    }
+	
+	video
+	{
+		display: block;
+		margin-left: 450px;
+		margin-right: auto;
+	}
