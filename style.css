@@ -42,14 +42,14 @@
     border: none;
     }
     
-    #box{
+    #box, #videoBox{
     height: 400px;
     width: 432px;
     bottom: 10px;
     }
     
-	#videoBox{left: 10px;}
 	#box{left: 10px;}
+    #videoBox{right: 10px;}
     #box{background-color: #121212;}
     
     #avatarbox{
