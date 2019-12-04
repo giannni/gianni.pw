@@ -58,6 +58,7 @@
     width: 150px;
     height: 150px;
     overflow: hidden;
+	position: absolute;
     }
     
     #avatarbox img{
