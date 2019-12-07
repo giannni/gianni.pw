@@ -1,10 +1,4 @@
-
-    .logo_div, .fpix_header, .topad, .fpix_asl_table, .profile_text,
-    .nc_profile, #left_container, #profilephoto, #flash_close_butt,
-    #start_chat_but, .uppermenu, #buyers_ad, #flashcontent, .yellow_but,
-    .bottombar, .byline, .top-links { visibility: hidden; display: none;}
-    
-    body
+	body
 	{
 		background-color: #191919;
 		cursor: url(./cursors/redcursor.png), auto;
@@ -18,9 +12,9 @@
     li{margin-left: 25px;}
     
     h1, h2{
-    font-family: 'Poiret One', cursive;
-    letter-spacing: 2px;
-    margin: 0; padding: 0;
+		font-family: 'Poiret One', cursive;
+		letter-spacing: 2px;
+		margin: 0; padding: 0;
     }
     
     h1{font-size: 12px;}
@@ -28,74 +22,86 @@
     
     
     #main, #box{
-    position: absolute;
-    border: 1px solid #3a3a3a;
+		position: absolute;
+		border: 1px solid #3a3a3a;
     }
     
     #main{
-    position: fixed;
-    left: 0; right: 0;
-    top: 0; bottom: 0;
-    margin: auto;
-    width: 900px;
-    height: 500px;
-    border: none;
+		position: fixed;
+		left: 0; right: 0;
+		top: 0; bottom: 0;
+		margin: auto;
+		width: 900px;
+		height: 500px;
+		border: none;
     }
     
-    #box, #videoBox{
-    height: 400px;
-    width: 432px;
-    bottom: 10px;
+    #box, #videoBox, #box2{
+		height: 400px;
+		width: 432px;
+		bottom: 10px;
     }
     
 	#box{left: 10px;}
-    #videoBox{right: 10px;}
+	#videoBox{right: 10px;}
     #box{background-color: #121212;}
+	
+	#box2
+	{
+		right: 10px; 
+		position: absolute;  
+	}
+	
+	#box2 img
+	{
+		max-width:100%; 
+		max-height:100%;
+	}
     
     #avatarbox{
-    right: 10px;
-    top: 10px;
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-	position: absolute;
+		right: 10px;
+		top: 10px;
+		width: 150px;
+		height: 150px;
+		overflow: hidden;
+		position: absolute;
     }
     
     #avatarbox img{
-    height: 150px;
-    border: 0;
+		height: 150px;
+		border: 0;
     }
     
     #title{
-    position: absolute;
-    left: 0; right: 0;
-    top: 0; margin: 10px 0;
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Poiret One', cursive;
-    color: #CCC;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+		position: absolute;
+		left: 0; right: 0;
+		top: 0; margin: 10px 0;
+		text-align: center;
+		font-size: 50px;
+		font-family: 'Poiret One', cursive;
+		color: #CCC;
+		text-transform: uppercase;
+		letter-spacing: 1px;
     }
     
     #smallBio{
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    border: 1px solid #3a3a3a;
-    height: 215px;
-    width: 150px;
-    overflow: hidden;
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		border: 1px solid #3a3a3a;
+		height: 215px;
+		width: 150px;
+		overflow: hidden;
     }
     
     #bigBio{
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    width: 245px;
-    height: 378px;
-    border: 1px solid #3a3a3a;
-    overflow: auto;
+		position: absolute;
+		left: 10px;
+		top: 10px;
+		width: 245px;
+		height: 378px;
+		border: 1px solid #3a3a3a;
+		overflow: auto;
     }
     
     .text{
@@ -130,16 +136,6 @@
 		padding-right: 10px;
 		text-align: right;
 		width: 100%;
-    }
-    
-    #header{
-		position: absolute;
-		left: 10px;
-		top: 10px;
-		width: 410px;
-		height: 100px;
-		border: 1px solid #3a3a3a;
-		overflow: hidden;
     }
     
     .tag{

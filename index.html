@@ -1,7 +1,7 @@
 <head>
 	<title>gianni</title>
 	<link rel="icon" href="/img/favicon.png">
-	<link rel="stylesheet" href="style.css?version=1.03">
+	<link rel="stylesheet" href="style.css?version=1.04">
 	<link rel="stylesheet" href="animate.css">
 	<script src="https://kit.fontawesome.com/c7e7013c5f.js"></script>
 </head>
@@ -9,7 +9,14 @@
 <div class="animated fadeIn">
 <body>
 <div id="main">
-<div id="videoBox">
+<audio autoplay loop preload>
+		<source src="./music/instrumental.mp3"/>
+		<script>
+		var audio = document.currentScript.parentElement;
+		audio.volume = 0.20;
+		</script>
+</audio>
+<!--<div id="videoBox">
 <video autoplay preload loop>
 		<source src="./music/pain.mp4" type="video/mp4">
 			<script>
@@ -17,10 +24,13 @@
 				video.volume = 0.05;
 			</script>
 </video>
+</div>-->
+<div id="box2">
+	<img src="./img/love.png">
 </div>
 <div id="box">
     <div id="avatarbox">
-		<img src="./img/obito.png">
+		<img src="./img/pfp.jpg">
     </div>
     <div id="smallBio">
     <center>
