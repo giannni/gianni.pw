@@ -12,6 +12,6 @@ var songs =
 
 var randomIndex = Math.floor(Math.random() * songs.length);
 var song = songs[randomIndex];
-document.querySelector("source").src = song.filename;
+document.querySelector("source").src = "./music/" + song.filename;
 var audio = document.currentScript.parentElement;
 audio.volume = 0.20;
