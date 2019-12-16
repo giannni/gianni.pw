@@ -1,7 +1,7 @@
 	body
 	{
 		background-color: #191919;
-		cursor: url(./cursors/redcursor.png), auto;
+		cursor: url(/cursors/redcursor.png), auto;
 	}
     
     b{color: #AAA;}
