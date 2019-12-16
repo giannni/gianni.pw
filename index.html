@@ -1,8 +1,8 @@
 <head>
 	<title>gianni</title>
-	<link rel="icon" href="/img/favicon.png">
-	<link rel="stylesheet" href="style.css?version=1.05">
-	<link rel="stylesheet" href="animate.css">
+	<link rel="icon" href="./img/favicon.png">
+	<link rel="stylesheet" href="./css/style.css?version=1.05">
+	<link rel="stylesheet" href="./css/animate.css">
 	<script src="https://kit.fontawesome.com/c7e7013c5f.js"></script>
 </head>
 
@@ -10,16 +10,19 @@
 <body>
 <div id="main">
 <audio autoplay loop preload>
-<source src="">
-<script src="song.js"></script>
+<source src="./music/wwjd.mp3">
+	<script>
+		var audio = document.currentScript.parentElement;
+		audio.volume = 0.05;
+	</script>
 </audio>
 <!--<div id="videoBox">
 <video autoplay preload loop>
-		<source src="./music/pain.mp4" type="video/mp4">
-			<script>
-				var video = document.currentScript.parentElement;
-				video.volume = 0.05;
-			</script>
+<source src="./music/pain.mp4" type="video/mp4">
+		<script>
+			var video = document.currentScript.parentElement;
+			video.volume = 0.05;
+		</script>
 </video>
 </div>-->
 <div id="box2">
