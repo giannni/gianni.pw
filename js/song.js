@@ -9,6 +9,8 @@ var songs =
     { filename: "aboutu.mp3"},
     { filename: "bean.mp3"},
 	{ filename: "canal.mp3"},
+	{ filename: "newfit.mp3"},
+	{ filename: "fumes.mp3"},
 ];
 
 var randomIndex = Math.floor(Math.random() * songs.length);
