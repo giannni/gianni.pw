@@ -8,10 +8,11 @@
 <div class="animated fadeIn">
     <body>
         <div id="main">
-            <audio autoplay loop preload volume="0.1">
+            <audio autoplay loop preload id="music">
 				<!-- leave empty source if you want to use random songs-->
 				<source src="./music/newfit.mp3">
 				<!--<script src="./js/song.js"></script>-->
+				<script> var audio = document.getElementById("music"); audio.volume = 0.1;</script>
             </audio>
             <div id="box">
                 <div id="avatarbox">
