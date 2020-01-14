@@ -42,13 +42,16 @@
 		bottom: 10px;
     }
     
-	#box{left: 10px;}
+	#box
+    {
+        margin: auto;
+        position: relative;
+    }
 	#videoBox{right: 10px;}
     #box{background-color: #121212;}
 	
 	#box2
-	{
-		right: 10px; 
+	{ 
 		position: absolute;  
 	}
 	
