@@ -71,6 +71,13 @@
 		height: 150px;
 		border: 0;
     }
+
+    #bigBio img
+    {   
+        height: 100%;
+        width: 100%;
+        border: 0;
+    }
     
     #title{
 		position: absolute;
@@ -100,8 +107,8 @@
 		top: 10px;
 		width: 245px;
 		height: 378px;
-		border: 1px solid #3a3a3a;
-		overflow: auto;
+		overflow: hidden;
+        border: none;
     }
     
     .text{
@@ -115,15 +122,15 @@
     }
 	
 	a {
-		font-size: 11px;
-		color: #AAA;
+		font-size: 10px;
+		color: #FFFFFF;
 		text-decoration: none;
 	}
     
     #smallBio{
 		text-align: right;
 		text-transform: uppercase;
-		font-family: 'Tahoma';
+		font-family: 'verdana' , monospace;
 		font-size: 9px;
 		text-align: justify;
 		color: #191919;
@@ -150,10 +157,11 @@
     }
     
     .tag b{
+        color: #FFFFFF;
 		display: inline-block;
 		text-align: left;
-		position: relative;
-		left: 0;
+		position: absolute;
+		left: 3;
 		float: left;
 		margin-left: 10px;
     }
