@@ -127,7 +127,6 @@
 		position: absolute;
 		right: 10px;
 		bottom: 10px;
-		border: 2px solid #3a3a3a;
 		height: 215px;
 		width: 150px;
 		overflow: hidden;
@@ -149,7 +148,7 @@
 		text-align: center;
 		text-transform: uppercase;
 		font-family: 'Tahoma', monospace;
-		font-size: 12px;
+		font-size: 14px;
 		color: #AAA;
 		text-decoration: none;
 		padding-top: 65%;
@@ -157,7 +156,7 @@
 	
 	a 
     {
-		font-size: 10px;
+		font-size: 11px;
 		color: #FFFFFF;
 		text-decoration: none;
 	}
@@ -184,14 +183,13 @@
     
     .tag
     {
-		width: 125px;
+		width: 100px;
 		height: 26px;
 		margin-top: 10px;
 		margin-bottom: 12px;
 		line-height: 25px;
 		padding-right: 10px;
-		text-align: right;
-		border: 2px solid #3a3a3a;
+		text-align: center;
     }
     
     .tag b
