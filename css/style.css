@@ -80,6 +80,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         border: 2px solid #3a3a3a;
+        border-radius: 25px;
     }
 
 	#videoBox
@@ -185,7 +186,7 @@
 		width: 100%;
     }
     
-    .tag
+    .button
     {
 		width: 110px;
 		height: 26px;
@@ -196,6 +197,8 @@
 		text-align: center;
         background: #191919;
         border: 2px solid #3a3a3a;
+        border-radius: 25px;
+        display:block
     }
     
     .tag b
