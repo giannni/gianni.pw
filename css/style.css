@@ -200,6 +200,11 @@
         border-radius: 25px;
         display:block
     }
+
+    a:hover
+    {
+        background: #2C2C2C;
+    }
     
     .tag b
     {
