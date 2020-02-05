@@ -80,7 +80,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         border: 2px solid #3a3a3a;
-        border-radius: 25px;
+        border-radius: 10px;
     }
 
 	#videoBox
@@ -196,8 +196,8 @@
 		padding-right: 10px;
 		text-align: center;
         background: #191919;
-        border: 2px solid #3a3a3a;
-        border-radius: 25px;
+        border: 1px solid #3a3a3a;
+        border-radius: 10px;
         display:block
     }
 
