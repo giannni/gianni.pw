@@ -1,6 +1,6 @@
 	body
 	{
-		background-color: #191919;
+		background-color: #CFA8D2;
 		cursor: url(/cursors/redcursor.png), auto;
 	}
     
@@ -51,7 +51,7 @@
     #main
     {
 		position: absolute;
-		border: 2px solid #3a3a3a;
+		border: 2px solid #DF0A68;
     }
     
     #main
@@ -79,7 +79,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border: 2px solid #3a3a3a;
+        border: 2px solid #DF0A68;
         border-radius: 10px;
     }
 
@@ -90,7 +90,7 @@
 
     #box
     {
-        background-color: #121212;
+        background-color: #C77BCD;
     }
 	
 	#box2
@@ -195,15 +195,15 @@
 		line-height: 25px;
 		padding-right: 10px;
 		text-align: center;
-        background: #191919;
-        border: 1px solid #3a3a3a;
+        background: #C61BD3;
+        border: 1px solid #DF0A68;
         border-radius: 10px;
         display:block
     }
 
     a:hover
     {
-        background: #2C2C2C;
+        background: #CE67D6;
     }
     
     .tag b
