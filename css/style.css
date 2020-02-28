@@ -1,6 +1,6 @@
 	body
 	{
-		background-color: #CFA8D2;
+		background-color: #202020;
 		cursor: url(/cursors/redcursor.png), auto;
 	}
     
@@ -79,7 +79,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border: 2px solid #c858d1;
+        border: 2px solid #989797;
         border-radius: 10px;
     }
 
@@ -90,7 +90,7 @@
 
     #box
     {
-        background-color: #C77BCD;
+        background-color: rgba(155, 1, 40, 0.6);
     }
 	
 	#box2
@@ -195,15 +195,15 @@
 		line-height: 25px;
 		padding-right: 10px;
 		text-align: center;
-        background: #C61BD3;
-        border: 1.5px solid #c858d1;
+        background: #D01E4A;
+        border: 1.5px solid #989797;
         border-radius: 10px;
         display:block
     }
 
     a:hover
     {
-        background: #CE67D6;
+        background: #EF5178;
     }
     
     .tag b
