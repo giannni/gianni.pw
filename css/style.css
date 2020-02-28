@@ -1,6 +1,9 @@
 	body
 	{
-		background-color: #202020;
+		/*background-color: #202020;*/
+        background-image: url(/img/background/background.png);
+        background-position: center;
+        background-size: cover;
 		cursor: url(/cursors/redcursor.png), auto;
 	}
     
@@ -90,7 +93,7 @@
 
     #box
     {
-        background-color: rgba(155, 1, 40, 0.6);
+        background-color: rgba(39, 39, 39, 0.6);
     }
 	
 	#box2
@@ -195,7 +198,7 @@
 		line-height: 25px;
 		padding-right: 10px;
 		text-align: center;
-        background: #D01E4A;
+        background: rgba(68,68,68,0.4);
         border: 1.5px solid #989797;
         border-radius: 10px;
         display:block
@@ -203,7 +206,7 @@
 
     a:hover
     {
-        background: #EF5178;
+        background: #787676;
     }
     
     .tag b
