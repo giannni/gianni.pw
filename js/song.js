@@ -5,7 +5,7 @@ var songs =
     { filename: "fishscale.mp3"},
     { filename: "fumes.mp3"},
 	{ filename: "Geeked.mp3"},
-    { filename: "killedmyself.mp3"},
+    { filename: "killedmyself.wav"},
     { filename: "newfit.mp3"},
     { filename: "time for it.mp3"},
 	{ filename: "Baby Pluto.mp3"},
