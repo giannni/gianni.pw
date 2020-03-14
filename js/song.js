@@ -11,6 +11,12 @@ var songs =
 	{ filename: "Baby Pluto.mp3"},
 	{ filename: "Celebration Station.mp3"},
 	{ filename: "Venetia.mp3"},
+    { filename: "in my feelings.mp3"},
+    { filename: "diva.mp3"},
+    { filename: "too much.mp3"},
+    { filename: "got the guap.mp3"},
+    { filename: "myron.mp3"},
+    { filename: "kobe.mp3"},
 ];
 
 var randomIndex = Math.floor(Math.random() * songs.length);
