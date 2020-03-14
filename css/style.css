@@ -1,7 +1,7 @@
 	body
 	{
-		/*background-color: #202020;*/
-        background-image: url(/img/background/background.png);
+		background-color: #0C0C0C;
+        /*background-image: url(/img/background/background.png);*/
         background-position: center;
         background-size: cover;
 		cursor: url(/cursors/redcursor.png), auto;
