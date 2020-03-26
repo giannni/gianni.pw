@@ -4,7 +4,6 @@ var songs =
     { filename: "DUNKIN DONUTS.mp3"},
     { filename: "fishscale.mp3"},
     { filename: "fumes.mp3"},
-	{ filename: "Geeked.mp3"},
     { filename: "killedmyself.wav"},
     { filename: "newfit.mp3"},
     { filename: "time for it.mp3"},
@@ -17,6 +16,12 @@ var songs =
     { filename: "got the guap.mp3"},
     { filename: "myron.mp3"},
     { filename: "kobe.mp3"},
+    { filename: "dreams.mp3"},
+    { filename: "live.mp3"},
+    { filename: "no love.mp3"},
+    { filename: "time flies.mp3"},
+    { filename: "whats up now.mp3"},
+    { filename: "doing time.mp3"},
 ];
 
 var randomIndex = Math.floor(Math.random() * songs.length);

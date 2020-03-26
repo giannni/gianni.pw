@@ -1,228 +1,99 @@
-	body
-	{
-		background-color: #0C0C0C;
-        /*background-image: url(/img/background/background.png);*/
-        background-position: center;
-        background-size: cover;
-		cursor: url(/cursors/redcursor.png), auto;
-	}
-    
-    b
-    {
-        color: #AAA;
-    }
+body
+{
+    background-color: #000000;
+    cursor: url(/cursors/redcursor.png), auto;
+}
 
-    i
-    {
-        color: #BBB;
-    }
+#main
+{
+    width: 500px;
+    height: 250px;
+    position: fixed;
+    margin: auto;
+    display: inline-block
+}
 
-    u
-    {
-        text-decoration: none; 
-        border-bottom: 1px solid #CCC;
-    }
+#elements
+{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-left: 255px;
+}
 
-    strike
-    {
-        color: #DDD;
-    }
-    
-    li
-    {
-        margin-left: 25px;
-    }
-    
-    h1, h2
-    {
-		font-family: 'Poiret One', cursive;
-		letter-spacing: 2px;
-		margin: 0; padding: 0;
-    }
-    
-    h1  
-    {
-        font-size: 12px;
-    }
+#imageGrid
+{
+    position: absolute;
+    width: auto;
+    margin-left: 500px;
+}
 
-    h2
-    {
-        font-size: 9px;
-    }
-    
-    
-    #main
-    {
-		position: absolute;
-		border: 2px solid #DF0A68;
-    }
-    
-    #main
-    {
-		position: fixed;
-		left: 0; right: 0;
-		top: 0; bottom: 0;
-		margin: auto;
-		width: 900px;
-		height: 500px;
-		border: none;
-    }
-    
-    #box, #videoBox, #box2
-    {
-		height: 400px;
-		width: 432px;
-    }
-    
-	#box
-    {
-        margin: auto;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border: 2px solid #989797;
-        border-radius: 10px;
-    }
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
 
-	#videoBox
-    {
-        right: 10px;
-    }
+/* Create two equal columns that sits next to each other */
+.column 
+{
+    flex: 50%;
+    padding: 0 4px;
+}
 
-    #box
-    {
-        background-color: rgba(39, 39, 39, 0.6);
-    }
-	
-	#box2
-	{ 
-		position: absolute;  
-	}
-	
-	#box2 img
-	{
-		max-width:100%; 
-		max-height:100%;
-	}
-    
-    #avatarbox
-    {
-		right: 10px;
-		top: 10px;
-		width: 154px;
-		height: 150px;
-		overflow: hidden;
-		position: absolute;
-    }
-    
-    #avatarbox img
-    {
-		height: 100%;
-        width: 100%;
-    }
+.column img 
+{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 40%;
+    max-height: 400px;
+    min-height: 400px;
+}
 
-    #bigBio img
-    {   
-        height: 100%;
-        width: 100%;
-        border: 0;
-    }
-    
-    #smallBio
-    {   
-		position: absolute;
-		right: 10px;
-		bottom: 10px;
-		height: 215px;
-		width: 150px;
-		overflow: hidden;
-    }
-    
-    #bigBio
-    {
-		position: absolute;
-		left: 10px;
-		top: 10px;
-		width: 245px;
-		height: 378px;
-		overflow: hidden;
-        border: none;
-    }
-    
-    .text
-    {
-		text-align: center;
-		text-transform: uppercase;
-		font-family: 'Tahoma', monospace;
-		font-size: 14px;
-		color: #AAA;
-		text-decoration: none;
-		padding-top: 65%;
-    }
-	
-	a 
-    {
-		font-size: 11px;
-		color: #FFFFFF;
-		text-decoration: none;
-	}
-    
-    #smallBio
-    {
-		text-align: right;
-		text-transform: uppercase;
-		font-family: 'verdana' , monospace;
-		font-size: 9px;
-		text-align: justify;
-		color: #191919;
-    }
-    
-    #smallBio .text b
-    {
-		text-transform: uppercase;
-		display: inline-block;
-		width: 40px;
-		padding-right: 10px;
-		text-align: right;
-		width: 100%;
-    }
-    
-    .button
-    {
-		width: 110px;
-		height: 26px;
-		margin-top: 10px;
-		margin-bottom: 12px;
-		line-height: 25px;
-		padding-right: 10px;
-		text-align: center;
-        background: rgba(68,68,68,0.4);
-        border: 1.5px solid #989797;
-        border-radius: 10px;
-        display:block
-    }
+#links
+{
+    top: auto;
+    position: absolute;
+}
 
-    a:hover
-    {
-        background: #787676;
-    }
-    
-    .tag b
-    {
-        color: #FFFFFF;
-		display: inline-block;
-		text-align: left;
-		position: absolute;
-		left: 3;
-		float: left;
-		margin-left: 10px;
-    }
-	
-	video
-	{
-		padding-top: 90px;
-		display: block;
-		margin-left: 450px;
-		margin-right: auto;
-	}
+ul 
+{
+    list-style-type: none;
+}
+
+a
+{
+    font-family: 'verdana', monospace;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+
+p
+{
+    font-family: 'verdana', monospace;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+}
+
+#imageBox
+{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    float: left;
+}
+
+#imageBox img
+{
+    height: 100%;
+    width: 100%;
+}
