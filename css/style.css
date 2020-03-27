@@ -6,7 +6,7 @@ body
 
 #main
 {
-    width: 500px;
+    width: 700px;
     height: 250px;
     position: fixed;
     margin: auto;
@@ -15,11 +15,11 @@ body
 
 #elements
 {
-    position: relative;
+    position: absolute;
     width: auto;
     height: auto;
     display: inline-block;
-    margin-left: 255px;
+    margin-left: 505px;
 }
 
 #imageGrid
