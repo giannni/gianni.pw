@@ -12,7 +12,7 @@ var songs =
 	{ filename: "got the guap.mp3"},
     { filename: "im a fool.mp3"},
     { filename: "in my feelings.mp3"},
-    { filename: "killdmyself.wav"},
+    { filename: "killedmyself.wav"},
     { filename: "let me go.mp3"},
     { filename: "live.mp3"},
     { filename: "mannequin.mp3"},
