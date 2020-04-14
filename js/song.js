@@ -30,3 +30,12 @@ var songs =
 var randomIndex = Math.floor(Math.random() * songs.length);
 var song = songs[randomIndex];
 var audio = document.querySelector("source").src = "./music/" + song.filename;
+
+var fs = require('fs');
+var files = fs.readdirSync('./music/');
+var fileArray = [];
+fileArray.push(files);
+var x = fileArray.toString();
+x.forEach(function(entry) {
+  console.log(entry);
+});
