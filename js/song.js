@@ -5,5 +5,4 @@ function randomNumber(min, max) {
 var randomInt = randomNumber(1,39);
 var song = randomInt.toString();
 var audio = document.querySelector("source").src = "./music/" + song + ".mp3";
-
-console.log(song)
+var audio = document.getElementById("music"); audio.volume = 0.1;
