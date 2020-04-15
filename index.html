@@ -15,7 +15,10 @@
             <audio autoplay loop preload id="music">
 				<!-- leave empty source if you want to use random songs-->
 				<source src="">
-				<script src="./js/song.js"></script>
+				<script src="./js/song.js">
+                    var music = document.documentElement("music");
+                    music.volume = 0.1;
+                </script>
             </audio>
             <div id="imageBox">
                 <img src="./img/avatars/angel.png">
