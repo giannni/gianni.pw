@@ -3,7 +3,7 @@ function randomNumber(min, max) {
 }  
 
 
-var randomInt = randomNumber(1,39);
+var randomInt = randomNumber(1,54);
 var song = randomInt.toString();
 var audio = document.querySelector("source").src = "./music/" + song + ".mp3";
 var music = document.getElementById("music");
