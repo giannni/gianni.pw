@@ -9,6 +9,8 @@ function selectSong()
     var audio = document.querySelector("source").src = "./music/" + song + ".mp3";
 }
 
+selectSong();
+
 var music = document.getElementById("music");
 music.volume = 0.03;
 
