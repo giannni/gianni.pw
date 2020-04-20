@@ -11,9 +11,11 @@ function selectSong()
     var song = randomInt.toString();
     var audio = document.querySelector("source").src = "./music/" + song + ".mp3";
     music.volume = 0.03;
+    music.play();
+    console.log(song)
 }
+
 selectSong();
-music.play();
 
 music.onended = function() {
     selectSong();
