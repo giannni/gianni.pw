@@ -1,6 +1,5 @@
 body
 {
-    cursor: url(./cursors/nat993.cur), auto;
     margin: 0;
     background: #bea8d6;
     height: 100%;
@@ -21,6 +20,7 @@ body
     margin-top:-250px;/* half height*/
     background: #AADCF7;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
+    cursor: url(./cursors/nat993.cur), auto;
 }
 
 #elements
