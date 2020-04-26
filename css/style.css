@@ -20,6 +20,7 @@ body
     margin-left:-400px;/* half width*/
     margin-top:-250px;/* half height*/
     background: #AADCF7;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
 }
 
 #elements
