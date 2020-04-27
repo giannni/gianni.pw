@@ -8,7 +8,7 @@ body
 #main
 {
     width: 800px;
-    height: 500px;
+    height: 650px;
     position: absolute;
     max-width: 100%;
     display: flex;
@@ -17,7 +17,7 @@ body
     top:50%;/* to center */
     left:50%;/* to center */
     margin-left:-400px;/* half width*/
-    margin-top:-250px;/* half height*/
+    margin-top:-325px;/* half height*/
     background: #1C1C1C;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
     cursor: url(./cursors/pink.cur), auto;
@@ -32,7 +32,7 @@ body
     top: 50%;/* to center */
     left: 50%;/* to center */
     margin-left: -360px;/* half width*/
-    margin-top: -240px;/* half height*/
+    margin-top: -310px;/* half height*/
     position: absolute;
     overflow: hidden;
     background: #363636;
@@ -67,7 +67,7 @@ body
     top: 50%;/* to center */
     left: 50%;/* to center */
     margin-left: -30px;/* half width*/
-    margin-top: -240px;/* half height*/
+    margin-top: -310px;/* half height*/
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
 }
 
