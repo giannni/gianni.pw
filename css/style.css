@@ -1,7 +1,7 @@
 body
 {
     margin: 0;
-    background: #bea8d6;
+    background: #131313;
     height: 100%;
 }
 
@@ -18,7 +18,7 @@ body
     left:50%;/* to center */
     margin-left:-400px;/* half width*/
     margin-top:-250px;/* half height*/
-    background: #AADCF7;
+    background: #1C1C1C;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
     cursor: url(./cursors/pink.cur), auto;
 }
@@ -35,7 +35,7 @@ body
     margin-top: -240px;/* half height*/
     position: absolute;
     overflow: hidden;
-    background: #77C8F3;
+    background: #363636;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
 }
 
@@ -61,7 +61,7 @@ body
     left: 2%;
     display: inline-block;
     border: 2px solid #FFFFFF;
-    background: #77C8F3;
+    background: #363636;
     position: absolute;
     overflow: hidden;
     top: 50%;/* to center */
@@ -110,12 +110,12 @@ body
 
 #cornerImg img
 {
-    height: 50%;
-    width: 50%;
+    height: 65%;
+    width: 70%;
     max-width: 100%;
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    right: 100px;
 }
 
 #cornerImg2
