@@ -7,8 +7,8 @@ body
 
 #main
 {
-    width: 800px;
-    height: 650px;
+    width: 50vw;
+    height: 70vh;
     position: absolute;
     max-width: 100%;
     display: flex;
@@ -16,8 +16,8 @@ body
     border: 3px solid #FFFFFF;
     top:50%;/* to center */
     left:50%;/* to center */
-    margin-left:-400px;/* half width*/
-    margin-top:-325px;/* half height*/
+    margin-left:-25vw;/* half width*/
+    margin-top:-35vh;/* half height*/
     background: #1C1C1C;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
     cursor: url(./cursors/pink.cur), auto;
@@ -27,12 +27,13 @@ body
 {
     display: inline-block;
     border: 2px solid #FFFFFF;
-    width: 300px;
+    width: 16vw;
+    height: auto;
     left: 2%;
     top: 50%;/* to center */
     left: 50%;/* to center */
-    margin-left: -360px;/* half width*/
-    margin-top: -310px;/* half height*/
+    margin-left: -22vw;/* half width*/
+    margin-top: -33vh;/* half height*/
     position: absolute;
     overflow: hidden;
     background: #363636;
@@ -42,7 +43,7 @@ body
 #elements h2
 {
     font-family: 'Cocogoose', sans-serif;
-    font-size: 20px;
+    font-size: 1.15em;
     text-decoration: none;
     text-align: center;
     color: #FFFFFF;
@@ -57,7 +58,8 @@ body
 
 #aboutme
 {
-    width: 400px;
+    width: 20vw;
+    height: auto;
     left: 2%;
     display: inline-block;
     border: 2px solid #FFFFFF;
@@ -66,15 +68,15 @@ body
     overflow: hidden;
     top: 50%;/* to center */
     left: 50%;/* to center */
-    margin-left: -30px;/* half width*/
-    margin-top: -310px;/* half height*/
+    margin-left: 2vw;/* half width*/
+    margin-top: -33vh;/* half height*/
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
 }
 
 #aboutme h1
 {
     font-family: 'Cocogoose', sans-serif;
-    font-size: 20px;
+    font-size: 1.15em;
     text-decoration: none;
     text-align: center;
     color: #FFFFFF;
@@ -85,20 +87,6 @@ body
     margin: 5px auto;
     background: #BE8DE5;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
-}
-
-#imageBox
-{
-    width: 500px;
-    height: 500px;
-    overflow: hidden;
-}
-
-#imageBox img
-{
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
 }
 
 #cornerImg
@@ -112,27 +100,10 @@ body
 {
     height: 65%;
     width: 70%;
-    max-width: 100%;
+    max-width: 70%;
     position: absolute;
-    bottom: 0px;
-    right: 100px;
-}
-
-#cornerImg2
-{
-    height: auto;
-    width: auto;
-    overflow: hidden;
-}
-
-#cornerImg2 img
-{
-    height: 68%;
-    width: 57%;
-    max-width: 100%;
-    position: absolute;
-    bottom: 0px;
-    left: 150px;
+    bottom: 0vh;
+    right: 0vw;
 }
 
 .fa-heart
@@ -140,15 +111,10 @@ body
     color: #BE8DE5;
 }
 
-#footer
-{
-    
-}
-
 a
 {
     font-family: 'Open Sans', monospace;
-    font-size: 20px;
+    font-size: 1.15em;
     font-weight: bold;
     text-decoration: none;
     color: #FFFFFF;
@@ -158,7 +124,7 @@ a
 p
 {
     font-family: 'Open Sans', monospace;
-    font-size: 20px;
+    font-size: 1.15em;
     font-weight: bold;
     text-decoration: none;
     color: #FFFFFF;
