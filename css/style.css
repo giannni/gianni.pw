@@ -7,8 +7,9 @@ body
 
 #main
 {
+    /* 50vw and 70vh to use a picture in the box */
     width: 50vw;
-    height: 70vh;
+    height: 30vh;
     position: absolute;
     max-width: 100%;
     display: flex;
@@ -17,7 +18,7 @@ body
     top:50%;/* to center */
     left:50%;/* to center */
     margin-left:-25vw;/* half width*/
-    margin-top:-35vh;/* half height*/
+    margin-top:-15vh;/* half height*/
     background: #1C1C1C;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
     cursor: url(./cursors/pink.cur), auto;
@@ -25,18 +26,19 @@ body
 
 #elements
 {
-    display: inline-block;
-    border: 2px solid #FFFFFF;
+    /*16 vw to use a picture */
     width: 16vw;
     height: auto;
     left: 2%;
     top: 50%;/* to center */
     left: 50%;/* to center */
     margin-left: -22vw;/* half width*/
-    margin-top: -33vh;/* half height*/
+    margin-top: -10vh;/* half height*/
     position: absolute;
     overflow: hidden;
     background: #363636;
+    display: inline-block;
+    border: 2px solid #FFFFFF;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
 }
 
@@ -58,6 +60,7 @@ body
 
 #aboutme
 {
+    /*20 vw to use a picture */
     width: 20vw;
     height: auto;
     left: 2%;
@@ -69,7 +72,7 @@ body
     top: 50%;/* to center */
     left: 50%;/* to center */
     margin-left: 2vw;/* half width*/
-    margin-top: -33vh;/* half height*/
+    margin-top: -10vh;/* half height*/
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
 }
 
