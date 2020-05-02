@@ -1,4 +1,4 @@
-body
+body, html
 {
     margin: 0;
     background: #000000;
@@ -9,19 +9,19 @@ body
 #main
 {
     /* 50vw and 70vh to use a picture in the box */
-    width: 36vw;
-    height: 40vh;
+    width: 80vw;
+    height: 70vh;
     position: absolute;
     max-width: 100%;
     display: flex;
     top:50%;/* to center */
     left:50%;/* to center */
-    margin-left:-18vw;/* half width*/
-    margin-top:-20vh;/* half height*/
+    margin-left:-40vw;/* half width*/
+    margin-top:-35vh;/* half height*/
     /*background: #1C1C1C;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
-    border: 3px solid #FFFFFF;
-    overflow: hidden;*/
+    overflow: hidden;
+    border: 3px solid #FFFFFF;*/
     cursor: url(./cursors/pink.cur), auto;
 }
 
@@ -35,12 +35,14 @@ body
     left: 50%;/* to center */
     margin-left: -11vw;/* half width*/
     margin-top: 7vh;/* half height*/
+    margin-bottom: 2vh;
     position: absolute;
     display: inline-block;
     /*background: #363636;
     border: 2px solid #FFFFFF;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
     overflow: hidden;*/
+    float: left;
 }
 
 #elements h2
@@ -53,7 +55,7 @@ body
     margin: 0px;
     border: 2px solid #FFFFFF;
     border-radius: 6px;
-    display: table;
+    display: flex;
     margin: 5px auto;
     background: #BE8DE5;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
@@ -93,21 +95,51 @@ body
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
 }
 
-#cornerImg
+#text
+{
+    float: left;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 0vw;
+    margin-top: 0vh;
+}
+
+#cornerimage
+{
+    width: 12vw;
+    height: 30vh;
+    overflow: hidden;
+    right: 0vw;/* half width*/
+    bottom: 0vh;/* half height*/
+    position: absolute;
+    margin-left: 1vh;/* half height*/
+    float: left;
+}
+
+#cornerimage img
+{
+    height: 100%;
+    width: 100%;
+}
+
+#cornerimage2
+{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    left: 0vw;/* half width*/
+    bottom: 0vh;/* half height*/
+    position: absolute;
+    display: flex;
+    margin-top: 7vh;/* half height*/
+    float: left;
+}
+
+#cornerimage2 img
 {
     height: auto;
     width: auto;
-    overflow: hidden;
-}
-
-#cornerImg img
-{
-    height: 65%;
-    width: 70%;
-    max-width: 70%;
-    position: absolute;
-    bottom: 0vh;
-    right: 0vw;
 }
 
 #imagebox
@@ -120,12 +152,13 @@ body
     top:50%;/* to center */
     left:50%;/* to center */
     position: absolute;
+    display: flex;
 }
 
 #imagebox img
 {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 .fa-heart
