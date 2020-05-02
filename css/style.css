@@ -1,45 +1,46 @@
 body
 {
     margin: 0;
-    background: #131313;
+    background: #000000;
     height: 100%;
+    overflow: hidden;
 }
 
 #main
 {
     /* 50vw and 70vh to use a picture in the box */
-    width: 50vw;
-    height: 30vh;
+    width: 36vw;
+    height: 40vh;
     position: absolute;
     max-width: 100%;
     display: flex;
-    overflow: hidden;
-    border: 3px solid #FFFFFF;
     top:50%;/* to center */
     left:50%;/* to center */
-    margin-left:-25vw;/* half width*/
-    margin-top:-15vh;/* half height*/
-    background: #1C1C1C;
+    margin-left:-18vw;/* half width*/
+    margin-top:-20vh;/* half height*/
+    /*background: #1C1C1C;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
+    border: 3px solid #FFFFFF;
+    overflow: hidden;*/
     cursor: url(./cursors/pink.cur), auto;
 }
 
 #elements
 {
     /*16 vw to use a picture */
-    width: 16vw;
-    height: auto;
+    width: 22vw;
+    height: 2vh;
     left: 2%;
     top: 50%;/* to center */
     left: 50%;/* to center */
-    margin-left: -22vw;/* half width*/
-    margin-top: -10vh;/* half height*/
+    margin-left: -11vw;/* half width*/
+    margin-top: 7vh;/* half height*/
     position: absolute;
-    overflow: hidden;
-    background: #363636;
     display: inline-block;
+    /*background: #363636;
     border: 2px solid #FFFFFF;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
+    overflow: hidden;*/
 }
 
 #elements h2
@@ -109,6 +110,24 @@ body
     right: 0vw;
 }
 
+#imagebox
+{
+    width: 30vw;
+    height: 25vh;
+    overflow: hidden;
+    margin-left: -15vw;/* half width*/
+    margin-top: -20vh;/* half height*/
+    top:50%;/* to center */
+    left:50%;/* to center */
+    position: absolute;
+}
+
+#imagebox img
+{
+    width: 100%;
+    height: 100%;
+}
+
 .fa-heart
 {
     color: #BE8DE5;
@@ -116,9 +135,9 @@ body
 
 a
 {
-    font-family: 'Open Sans', monospace;
-    font-size: 1.15em;
-    font-weight: bold;
+    font-family: 'tahoma', monospace;
+    font-size: 0.8em;
+    font-weight: 500;
     text-decoration: none;
     color: #FFFFFF;
     padding-bottom: 35px;
@@ -126,9 +145,9 @@ a
 
 p
 {
-    font-family: 'Open Sans', monospace;
-    font-size: 1.15em;
-    font-weight: bold;
+    font-family: 'tahoma', monospace;
+    font-size: 0.8em;
+    font-weight: 500;
     text-decoration: none;
     color: #FFFFFF;
     margin: 0px;
