@@ -30,11 +30,10 @@ body, html
     /*16 vw to use a picture */
     width: 22vw;
     height: 2vh;
-    left: 2%;
     top: 50%;/* to center */
     left: 50%;/* to center */
     margin-left: -11vw;/* half width*/
-    margin-top: 7vh;/* half height*/
+    margin-top: 12vh;/* half height*/
     margin-bottom: 2vh;
     position: absolute;
     display: inline-block;
@@ -148,7 +147,7 @@ body, html
     height: 25vh;
     overflow: hidden;
     margin-left: -15vw;/* half width*/
-    margin-top: -20vh;/* half height*/
+    margin-top: -15vh;/* half height*/
     top:50%;/* to center */
     left:50%;/* to center */
     position: absolute;
