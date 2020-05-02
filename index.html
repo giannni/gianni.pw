@@ -12,9 +12,13 @@
     <meta http-equiv="Expires" content="0"/>
 </head>
 <body class="animated fadeIn">
-    <audio autoplay id="music">
+    <audio autoplay loop id="music">
         <!--leave empty source if you want to use random songs-->
         <source src="./music/2007.mp3">
+        <script>
+            var music = document.getElementById("music");
+            music.volume = 0.03;
+        </script>
         <!--<script src="./js/song.js"></script>-->
     </audio>
     <div id="main">
