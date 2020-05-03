@@ -22,7 +22,7 @@ body, html
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
     overflow: hidden;
     border: 3px solid #FFFFFF;*/
-    cursor: url(./cursors/pink.cur), auto;
+    cursor: url(/cursors/pink.cur), auto;
 }
 
 #elements
