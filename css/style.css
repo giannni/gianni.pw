@@ -10,14 +10,14 @@ body, html
 #main
 {
     /* 50vw and 70vh to use a picture in the box */
-    width: 30vw;
+    width: 37vw;
     height: 36vh;
     position: absolute;
     max-width: 100%;
     display: flex;
     top:50%;/* to center */
     left:50%;/* to center */
-    margin-left:-15vw;/* half width*/
+    margin-left:-18.5vw;/* half width*/
     margin-top:-18vh;/* half height*/
     /*background: url(/img/background/squares.png), repeat;*/
     background: #0B0B0B;
@@ -30,9 +30,9 @@ body, html
 #elements
 {
     /*16 vw to use a picture */
-    width: auto;
-    height: auto;
-    margin-left: 11.5vw;/* half width*/
+    width: 6.5vw;
+    height: 33vh;
+    margin-left: 29.5vw;/* half width*/
     margin-top: 1vh;/* half height*/
     position: absolute;
     display: inline-block;
@@ -87,10 +87,10 @@ body, html
 #cornerimage
 {
     width: 18vw;
-    height: 27vh;
+    height: 33vh;
     overflow: hidden;
-    margin-left: 11.5vw;/* half width*/
-    margin-top: 7vh;/* half height*/
+    margin-left: 11vw;/* half width*/
+    margin-top: 1vh;/* half height*/
     position: absolute;
     display: flex;
     border: 2px solid #404040;
@@ -108,7 +108,7 @@ body, html
     width: 10vw;
     height: 33vh;
     overflow: hidden;
-    margin-left: 1vw;/* half width*/
+    margin-left: 0.5vw;/* half width*/
     margin-top: 1vh;/* half height*/
     position: absolute;
     display: flex;
