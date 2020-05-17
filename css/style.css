@@ -35,7 +35,6 @@ body, html
     margin-left: 29.5vw;/* half width*/
     margin-top: 1vh;/* half height*/
     position: absolute;
-    display: flex;
     border: 2px solid #404040;
     box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
     background: #181818;
@@ -48,12 +47,12 @@ body, html
     list-style-type: none;
     display: block;
     margin-top: 0;
-    margin-left: 0;
+    padding-left: 5px;
 }
 
 #elements li
 {
-
+    padding-bottom: 10px;
 }
 
 #elements h2
