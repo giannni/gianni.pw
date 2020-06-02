@@ -31,13 +31,10 @@ body, html
 {
     /*16 vw to use a picture */
     width: 6.5vw;
-    height: 33vh;
+    height: 100%;
     margin-left: 29.5vw;/* half width*/
     margin-top: 1vh;/* half height*/
     position: absolute;
-    border: 2px solid #404040;
-    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
-    background: #181818;
     overflow: hidden;
 }
 
