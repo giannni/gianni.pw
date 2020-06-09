@@ -158,15 +158,6 @@ body, html
     color: #1B54E2;
 }
 
-a
-{
-    font-family: 'Segoe UI';
-    font-size: 0.9em;
-    font-weight: 500;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
 p
 {
     font-family: 'Segoe UI';
@@ -175,6 +166,15 @@ p
     text-decoration: none;
     color: #FFFFFF;
     margin: 0px;
+}
+
+a
+{
+    font-family: 'Segoe UI';
+    font-size: 0.9em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 #list
