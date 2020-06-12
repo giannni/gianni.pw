@@ -4,52 +4,57 @@ body, html
     background: #000000;
     height: 100%;
     overflow: hidden;
-    /*cursor: url(), auto;*/
+    cursor: url(/cursors/redcursor.png), auto;
+    background-image: url(/img/other/tokyo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #main
 {
     /* 50vw and 70vh to use a picture in the box */
-    width: 37vw;
-    height: 36vh;
+    width: 5vw;
+    height: 28vh;
     position: absolute;
-    max-width: 100%;
+    max-width: 5vw;
+    max-height: 28vh;
     display: flex;
-    top:50%;/* to center */
-    left:50%;/* to center */
-    margin-left:-18.5vw;/* half width*/
-    margin-top:-18vh;/* half height*/
+    /*top:50%; to center 
+    left:50%; to center */
+    top: 10%;
+    left: 1%;
+    margin-left:0vw;/* half width*/
+    margin-top:0vh;/* half height*/
     /*background: url(/img/background/squares.png), repeat;*/
     background: #0B0B0B;
     box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
     overflow: hidden;
-    border: 2px solid #404040;
-    /*cursor: url(), auto;*/
+    border: 1px solid #404040;
+    cursor: url(/cursors/redcursor.png), auto;
 }
 
 #elements
 {
     /*16 vw to use a picture */
-    width: 6.5vw;
-    height: 100%;
-    margin-left: 29.5vw;/* half width*/
-    margin-top: 1vh;/* half height*/
     position: absolute;
-    overflow: hidden;
+    display: inline-block;
 }
 
 #elements ul
 {
     position: absolute;
     list-style-type: none;
-    display: block;
+    display: inline-block;
     margin-top: 0;
     padding-left: 5px;
+    width:100%;
+    height:100%;
 }
 
 #elements li
 {
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #elements h2
@@ -88,8 +93,8 @@ body, html
 
 #cornerimage
 {
-    width: 18vw;
-    height: 33vh;
+    width: 1280px;
+    height: 720px;
     overflow: hidden;
     margin-left: 11vw;/* half width*/
     margin-top: 1vh;/* half height*/
@@ -156,6 +161,21 @@ body, html
 .fa-steam-square
 {
     color: #1B54E2;
+}
+
+#avi
+{
+    margin-left: 1vw;
+    margin-right: auto;
+    margin-top: 1vh;
+    display: block;
+}
+
+#avi img
+{
+    width: 20vw;
+    height: 20vh;
+    border: 2px solid #404040;
 }
 
 p
