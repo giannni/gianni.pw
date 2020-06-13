@@ -13,11 +13,11 @@ body, html
 #main
 {
     /* 50vw and 70vh to use a picture in the box */
-    width: 5vw;
-    height: 28vh;
+    width: 80px;
+    height: 260px;
     position: absolute;
-    max-width: 5vw;
-    max-height: 28vh;
+    max-width: 80px;
+    max-height: 260px;
     display: flex;
     /*top:50%; to center 
     left:50%; to center */
