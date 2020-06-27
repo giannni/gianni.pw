@@ -1,237 +1,135 @@
-body, html
-{
+body,
+html {
     margin: 0;
+    padding: 0;
     background: #000000;
     height: 100%;
     overflow: hidden;
-    cursor: url(/cursors/redcursor.png), auto;
-    background-image: url(/img/other/tokyo.jpg);
+    /*background-image: url(/img/other/tokyo.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 
-#main
-{
-    /* 50vw and 70vh to use a picture in the box */
-    width: 80px;
-    height: 260px;
+#main {
+    width: 370px;
+    height: 264px;
+    top: 50%;
+    left: 50%;
+    margin: -132px 0 0 -185px;
     position: absolute;
-    max-width: 80px;
-    max-height: 260px;
     display: flex;
-    /*top:50%; to center 
-    left:50%; to center */
-    top: 10%;
-    left: 1%;
-    margin-left:0vw;/* half width*/
-    margin-top:0vh;/* half height*/
-    /*background: url(/img/background/squares.png), repeat;*/
-    background: #0B0B0B;
-    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
     overflow: hidden;
     border: 1px solid #404040;
-    cursor: url(/cursors/redcursor.png), auto;
+    background: #0B0B0B;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 1);
 }
 
-#elements
-{
-    /*16 vw to use a picture */
+#avatar {
+    margin: 5px 0 0 5px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #404040;
+    overflow: hidden;
+    display: flex;
+}
+
+#text {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 50%;
     position: absolute;
-    display: inline-block;
+    display: flex;
 }
 
-#elements ul
-{
+#info {
+    width: 200px;
+    margin: 5px 0 0 270px;
     position: absolute;
-    list-style-type: none;
-    display: inline-block;
-    margin-top: 0;
-    padding-left: 5px;
-    width:100%;
-    height:100%;
-}
-
-#elements li
-{
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-#elements h2
-{
+    display: flex;
     font-family: 'tahoma', monospace;
-    font-size: 1em;
-    font-weight: 500;
+    font-size: large;
     text-decoration: none;
     color: #FFFFFF;
 }
 
-#aboutme
-{
-    /*20 vw to use a picture */
-    width: auto;
-    height: auto;
-    display: inline-block;
-    border: 2px solid #FFFFFF;
-    background: #363636;
-    position: absolute;
-    overflow: hidden;
-    margin-left: 0vw;/* half width*/
-    margin-top: 0vh;/* half height*/
-    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
-}
-
-#text
-{
-    float: left;
-    position: relative;
-    width: auto;
-    height: auto;
-    margin-left: 0vw;
-    margin-top: 0vh;
-}
-
-#cornerimage
-{
-    width: 1280px;
-    height: 720px;
-    overflow: hidden;
-    margin-left: 11vw;/* half width*/
-    margin-top: 1vh;/* half height*/
+#bio {
+    width: 300px;
+    margin: 60px 0 0 270px;
     position: absolute;
     display: flex;
-    border: 2px solid #404040;
-    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
+    border: 1px solid #404040;
+    font-family: 'tahoma';
+    font-size: small;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
-#cornerimage img
-{
-    height: 100%;
-    width: 100%;
-}
-
-#imagebox
-{
-    width: 10vw;
-    height: 33vh;
-    overflow: hidden;
-    margin-left: 0.5vw;/* half width*/
-    margin-top: 1vh;/* half height*/
+#elements {
+    width: auto;
+    height: auto;
+    margin: 5px 0 0 230px;
     position: absolute;
     display: flex;
-    border: 2px solid #404040;
-    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.55);
+    /*background: #151515;
+    border: 1px solid #404040;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.55);
+    overflow: hidden;*/
 }
 
-#imagebox img
-{
-    height: 100%;
-    width: 100%;
+#elements ul {
+    list-style-type: none;
+    display: block
 }
 
-.fa-heart
+#elements li {
+    display: block
+}
+
+p {
+    font-family: 'tahoma', monospace;
+    font-size: x-small;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a {
+    font-family: 'tahoma', monospace;
+    font-size: small;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#icon
 {
+    width: 18px;
+    height: 18px;
+}
+
+.fa-heart {
     color: #BE8DE5;
 }
 
-.fa-check
-{
+.fa-check {
     color: #000000;
 }
 
-.fa-twitter-square
-{
+.fa-twitter {
     color: #1B8BE2;
 }
 
-.fa-gamepad
-{
-    color: #E21B4B;
-}
-.fa-tv
-{
-    color: #E21BB2;
+/*.fa-gamepad {
+    color: #278418;
+}*/
+
+.fa-tv {
+    color: #003AFE;
 }
 
-.fa-twitch
-{
+.fa-twitch {
     color: #7F25EC;
 }
 
-.fa-steam-square
-{
-    color: #1B54E2;
-}
-
-#avi
-{
-    margin-left: 1vw;
-    margin-right: auto;
-    margin-top: 1vh;
-    display: block;
-}
-
-#avi img
-{
-    width: 20vw;
-    height: 20vh;
-    border: 2px solid #404040;
-}
-
-p
-{
-    font-family: 'Segoe UI';
-    font-size: 0.9em;
-    font-weight: 500;
-    text-decoration: none;
-    color: #FFFFFF;
-    margin: 0px;
-}
-
-a
-{
-    font-family: 'Segoe UI';
-    font-size: 0.9em;
-    font-weight: 500;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-#list
-{
-    /*16 vw to use a picture */
-    width: auto;
-    height: auto;
-    margin-left: 14vw;/* half width*/
-    margin-top: 27vh;/* half height*/
-    position: absolute;
-    display: inline-block;
-    float: left;
-}
-
-#list ul
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-family: 'Segoe UI';
-    font-size: 0.8em;
-    font-weight: 500;
-    text-decoration: none;
-    color: #0F0F0F;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin: 0 0 8px 0;
-    list-style: none;
-}
-
-#list h1
-{
-    font-family: 'Segoe UI';
-    font-size: 1.2em;
-    font-style: normal;
-    font-weight: bold;
-    text-decoration: none;
-    color: #0F0F0F;
-    text-align: center;
-    margin-bottom: 0;
+.fa-steam {
+    color: #171a21;
 }
