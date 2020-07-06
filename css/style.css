@@ -19,9 +19,9 @@ html {
     position: absolute;
     display: flex;
     overflow: hidden;
-    border: 1px solid #404040;
+    /*border: 1px solid #404040;
     background: #0B0B0B;
-    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 1);*/
 }
 
 #avatar {
