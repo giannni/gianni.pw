@@ -43,14 +43,11 @@ html {
 }
 
 #info {
-    width: 200px;
-    margin: 5px 0 0 270px;
+    width: auto;
+    height: auto;
+    margin: 5px 0 0 5px;
     position: absolute;
     display: flex;
-    font-family: 'tahoma', monospace;
-    font-size: large;
-    text-decoration: none;
-    color: #FFFFFF;
 }
 
 #bio {
@@ -88,7 +85,7 @@ html {
 
 p {
     font-family: 'tahoma', monospace;
-    font-size: x-small;
+    font-size: small;
     text-decoration: none;
     color: #FFFFFF;
 }
