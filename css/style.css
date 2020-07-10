@@ -12,7 +12,7 @@ html {
 
 #main {
     width: 370px;
-    height: 264px;
+    height: 325px;
     top: 50%;
     left: 50%;
     margin: -132px 0 0 -185px;
@@ -25,7 +25,7 @@ html {
 }
 
 #avatar {
-    margin: 5px 0 0 5px;
+    margin: 60px 0 0 5px;
     width: 250px;
     height: 250px;
     border: 2px solid #404040;
