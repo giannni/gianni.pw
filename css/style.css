@@ -26,8 +26,8 @@ html {
 
 #avatar {
     margin: 60px 0 0 5px;
-    width: 250px;
-    height: 250px;
+    width: auto;
+    height: auto;
     border: 2px solid #404040;
     overflow: hidden;
     display: flex;
