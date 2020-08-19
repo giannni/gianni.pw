@@ -29,7 +29,6 @@ html {
     width: 250px;
     height: 250px;
     /*border: 2px solid #404040;*/
-    overflow: hidden;
     display: flex;
 }
 
