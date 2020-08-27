@@ -7,7 +7,7 @@ var music = document.getElementById("music");
 
 function selectSong()
 {
-    var randomInt = randomNumber(1,63);
+    var randomInt = randomNumber(1,10);
     var song = randomInt.toString();
     var audio = document.querySelector("source").src = "./music/" + song + ".mp3";
     music.volume = 0.03;

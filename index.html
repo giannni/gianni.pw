@@ -3,7 +3,7 @@
 <head>
     <title>forever.</title>
     <link rel="icon" href="/img/icon/favicon.ico">
-    <link rel="stylesheet" href="/css/style.css?version=0.37">
+    <link rel="stylesheet" href="/css/style.css?version=0.38">
     <link rel="stylesheet" href="/css/animate.css">
     <script src="https://kit.fontawesome.com/c7e7013c5f.js"></script>
     <meta name="viewport" content="width=device-width, intial-scale=1">
@@ -14,14 +14,17 @@
 <body class="animated fadeIn">
     <audio autoplay loop id="music">
         <!--leave empty source if you want to use random songs-->
-        <source src="./music/mental.mp3">
+        <source src="">
         <script>
             var music = document.getElementById("music");
             music.volume = 0.03;
         </script>
-        <!--<script src="./js/song.js"></script>-->
+        <script src="./js/song.js"></script>
     </audio>
-    <a href="https://steamcommunity.com/id/gianni" target="_blank"><img id="picture" src="./img/anime/hatred.png"></a>
+    <div id="centerText">
+        <a href="https://steamcommunity.com/id/gianni" target="_blank">что со мной не так</a>
+        <a href="https://myanimelist.net/profile/gianni" target="_blank"><br>ты единственный кто мне нужен</a>
+    </div>
     <!--<div id="main">
         <img id="avatar" src="./img/anime/anos.png">
         <div id="elements">
