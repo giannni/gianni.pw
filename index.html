@@ -14,16 +14,20 @@
 <body class="animated fadeIn">
     <audio autoplay loop id="music">
         <!--leave empty source if you want to use random songs-->
-        <source src="./music/pretending.mp3">
+        <source src="./music/yyy.mp3">
         <script>
             var music = document.getElementById("music");
             music.volume = 0.05;
         </script>
         <!--<script src="./js/song.js"></script>-->
     </audio>
-    <div id="centerText">
-        <a href="https://steamcommunity.com/id/gianni" target="_blank">fps</a>
-        <a href="https://myanimelist.net/profile/gianni" target="_blank"><br>god</a>
-    </div>
+    <table class="table social">
+    <tr>
+        <td><a href="https://steamcommunity.com/id/gianni/"><div><img src="/img/icon/steam.png"><p>STEAM</p></div></a></td>
+        <td><a href="https://play.esea.net/users/2071927"><div><img src="/img/icon/esea.png"><p>ESEA</p></div></a></td>
+        <td><a href="https://www.faceit.com/en/players/gianni"><div><img src="/img/icon/faceit.png"><p>FACEIT</p></div></a></td>
+        <td><a href="https://myanimelist.net/profile/gianni"><div><img src="/img/icon/mal.png"><p>MAL</p></div></a></td>
+    </tr>
+    </table>
 </body>
 </html>
