@@ -1,2 +1,2 @@
 # website
-This is my current, personal website hosted on github.
+This is my personal website hosted on github.
