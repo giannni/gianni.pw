@@ -1,5 +1,5 @@
 body {
-    padding: 15px;
+    padding: 200px;
     text-align: center;
     background-color: #212121;
     font-family: 'Verdana', monospace;
@@ -18,6 +18,11 @@ td {
 .main {
     margin: 50px auto 30px;
     width: 70%;
+}
+
+#imgCenter {
+     width: 50%;
+    height: 50%;
 }
 
 .social img {
