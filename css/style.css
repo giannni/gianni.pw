@@ -24,6 +24,12 @@ a
   color: #FFFFFF;
 }
 
+#main
+{
+  display: flex;
+  justify-content: center;
+}
+
 #links
 {
   font-size: medium;
@@ -33,6 +39,8 @@ a
   font-weight: normal;
   color: #FFFFFF;
   border-left: 2px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 ul
