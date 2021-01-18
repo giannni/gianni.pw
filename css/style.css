@@ -26,8 +26,11 @@ a
 
 #main
 {
-  display: flex;
+  display: block;
   justify-content: center;
+  margin: auto;
+  width: 500px;
+  height: 500px;
 }
 
 #links
@@ -35,12 +38,12 @@ a
   font-size: medium;
   text-decoration: none;
   user-select: none;
-  text-align: left;
+  text-align: center;
   font-weight: normal;
   color: #FFFFFF;
-  border-left: 2px solid white;
-  margin-left: 10px;
-  margin-right: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul
@@ -50,6 +53,10 @@ ul
 
 img 
 {
-    width: 300px;
-    height: 400px;
+  width: 500px;
+  height: 300px;
+  border: 1px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
