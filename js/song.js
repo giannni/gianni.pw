@@ -14,11 +14,7 @@ function select_song()
     var audio = document.querySelector("source").src = "./music/" + song;
     music.volume = 0.1;
     music.play();
+    console.log("song selected")
 }
 
 select_song();
-
-music.onended = function() 
-{
-    select_song();
-};
