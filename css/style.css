@@ -35,32 +35,32 @@ a
 
 #links
 {
+  width: auto;
+  height: auto;
   font-size: medium;
   text-decoration: none;
   user-select: none;
   font-weight: normal;
   color: #FFFFFF;
-  display: inline-block;
   margin: auto;
+  display: table;
+  justify-content: left;
 }
 
 ul
 {
   list-style-type: none;
-  overflow: hidden;
 }
 
 li
 {
-  padding: 10px;
-  float: left;
+  color: #FFFFFF;
 }
 
 img 
 {
-  width: 500px;
-  height: 300px;
-  border: 1px solid white;
+  width: auto;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
