@@ -1,11 +1,13 @@
 body 
 {
-    background: no-repeat center center fixed url('../img/background/tokyo.gif'); 
+    /*background: no-repeat center center fixed url('../img/background/tokyo.gif'); 
     z-index: -5; 
     background-size: cover; 
     image-rendering: pixelated; 
     image-rendering: crisp-edges; 
-    image-rendering: optimizeSpeed; 
+    image-rendering: optimizeSpeed; */
+    background: linear-gradient(120deg, rgba(30,30,30,1) 0%, rgba(20,20,20,1) 100%);
+    font-family: Verdana;
 }
 
 span
@@ -18,40 +20,79 @@ span
 a
 {
     color: #FFFFFF;
-    font-size: large;
     text-decoration: none;
+}
+
+p
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1
+{
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-weight: bold;
 }
 
-code
+.typewrite
 {
-  color: #FFFFFF;
-  font-size: large;
-  font-weight: bold;
+    text-align: center;
 }
 
 .main
 {
-  margin: auto;
-  padding-left: 100px;
-  padding-top: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .links
 {
-  background-color: rgb(49, 49, 49);
-  color: #FFFFFF;
-  border: solid 1px #FFFFFF;
-  font-family: monospace;
-  max-width: fit-content;
-  height: auto;
+    color: #ffffff;
+    display: flexbox;
+    text-align: center;
 }
 
 img 
 {
-  width: 150px;
-  height: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid 1px #FFFFFF;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #FFFFFF;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
 }
