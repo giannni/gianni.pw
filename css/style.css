@@ -5,8 +5,9 @@ body
     background-size: cover; 
     image-rendering: pixelated; 
     image-rendering: crisp-edges; 
-    image-rendering: optimizeSpeed; */
-    background: linear-gradient(120deg, rgba(30,30,30,1) 0%, rgba(20,20,20,1) 100%);
+    image-rendering: optimizeSpeed; 
+    background: linear-gradient(120deg, rgba(30,30,30,1) 0%, rgba(20,20,20,1) 100%); */
+    background-color: black;
     font-family: Verdana;
 }
 
@@ -58,9 +59,8 @@ h1
 
 img 
 {
-    width: 400px;
-    height: 250px;
-    border: solid 1px #FFF;
+    width: auto;
+    height: auto;
 }
 
 .typewrite 
