@@ -57,6 +57,13 @@ h1
     font-size: small;
 }
 
+.mainText
+{
+    color: #FFF;
+    text-align: center;
+    font-size: small;
+}
+
 img 
 {
     width: auto;
