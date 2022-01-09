@@ -22,6 +22,7 @@ a
 {
     color: #FFF;
     text-decoration: none;
+    display: block;
 }
 
 p
@@ -53,8 +54,11 @@ h1
 .links
 {
     color: #FFF;
-    text-align: center;
     font-size: small;
+    display: block;
+    width: auto;
+    height: auto;
+    border-left: 2px solid #FFF;
 }
 
 .mainText
