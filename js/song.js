@@ -5,7 +5,7 @@ function random_number(min, max)
 
 var music = document.getElementById("music");
 
-const audio_sources = ["bleedout.mp3","main character.mp3",'blue mondays.mp3',"hatchets.mp3","woodside.mp3","craft.mp3","sheaskedwhatmylifeislike.mp3","yyy.mp3"]
+const audio_sources = ["wicked.mp3"]
 
 function select_song()
 {
