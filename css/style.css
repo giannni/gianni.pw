@@ -54,7 +54,7 @@ h1
 .links
 {
     color: #FFF;
-    font-size: small;
+    font-size: smaller;
     display: block;
     width: auto;
     height: auto;
@@ -65,7 +65,7 @@ h1
 {
     color: #FFF;
     text-align: center;
-    font-size: small;
+    font-size: large;
 }
 
 img 
