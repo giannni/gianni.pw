@@ -13,7 +13,21 @@
     <meta http-equiv="Expires" content="0"/>
 </head>
 <body class="animated fadeIn">
-    <div class="center" id="main">
+    <div class="center" id="main" onclick="toggleMusic()">
+		<script>
+			function toggleMusic() 
+			{
+				var music = document.getElementById('music');
+				if (music.paused) 
+				{
+					music.play();
+				} 
+				else 
+				{
+					music.pause();
+				}
+			}	
+		</script>
         <audio autoplay loop id="music">
             <!--leave empty source if you want to use random songs-->
             <source src="./music/Ecstasy.mp3">
