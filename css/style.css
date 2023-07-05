@@ -9,26 +9,25 @@ body
     background: linear-gradient(120deg, rgba(30,30,30,1) 0%, rgba(20,20,20,1) 100%); */
     background-color: black;
     font-family: Verdana;
+    cursor: url(/img/other/csgo\ red\ crosshair.cur), auto;
 }
 
 span
 {
     margin-left: 10px;
     margin-right: 10px;
-    display: block;
 }
 
 a
 {
     color: #FFF;
     text-decoration: none;
-    display: block;
+    cursor: url(/img/other/csgo\ red\ crosshair.cur), auto;
 }
 
 p
 {
     color: #FFF;
-    display: block;
 }
 
 h1
@@ -55,10 +54,15 @@ h1
 {
     color: #FFF;
     font-size: smaller;
-    display: block;
     width: auto;
     height: auto;
-    border-left: 2px solid #FFF;
+    /*border-left: 2px solid #FFF;*/
+    cursor: url(/img/other/csgo\ red\ crosshair.cur), auto;
+}
+
+.icons {
+    width: 3%;
+    height: 3%; 
 }
 
 .mainText
@@ -72,18 +76,4 @@ img
 {
     width: auto;
     height: auto;
-}
-
-.typewrite 
-{
-    color: #fff;
-    text-align: center;
-    font-size: x-small;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.Typewriter__cursor
-{
-    display: none;
 }
