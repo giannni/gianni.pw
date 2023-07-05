@@ -16,6 +16,7 @@ span
 {
     margin-left: 10px;
     margin-right: 10px;
+    display: block;
 }
 
 a
@@ -23,17 +24,21 @@ a
     color: #FFF;
     text-decoration: none;
     cursor: url(/img/other/csgo\ red\ crosshair.cur), auto;
+    display: block;
 }
 
 p
 {
     color: #FFF;
+    display: block;
 }
 
 h1
 {
     font-size: 2em;
     font-weight: bold;
+    display: block;
+    border-left: 2px solid #FFF;
 }
 
 .header
