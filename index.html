@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>^_^</title>
+    <title>idc, go next</title>
     <link rel="icon" href="/img/icon/favicon.ico">
     <link rel="stylesheet" href="/css/style.css?version=0.52">
     <link rel="stylesheet" href="/css/animate.css">
     <script src="https://kit.fontawesome.com/c7e7013c5f.js"></script>
+    <script src="/js/toggle.js"></script>
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
     <meta http-equiv="Pragma" content="no-cache"/>
@@ -13,32 +14,12 @@
 </head>
 <body class="animated fadeIn">
     <div class="center" id="main">
-		<script>
-			function toggleMusic() 
-			{
-				var music = document.getElementById('music');
-				if (music.paused) 
-				{
-					music.play();
-				} 
-				else 
-				{
-					music.pause();
-				}
-			}	
-		</script>
         <audio autoplay loop id="music">
             <!--leave empty source if you want to use random songs-->
             <source src="./music/need u.mp3">
-            <script>
-                var music = document.getElementById("music");
-                music.volume = 0.01;
-            </script>
         </audio>
-
-        <img src="/img/other/gianni_grafitti.png" title="click to play and pause music ^_^" onclick="toggleMusic()"></a>
-
-       <div class="links">
+        <img src="/img/other/gianni_grafitti.png" onclick="toggleMusic()"></a>
+        <div class="links">
             <span>
                 <a href="https://steamcommunity.com/id/gianni/" target="_blank">steam</a>
                 <a href="https://play.esea.net/users/gianni" target="_blank">esea</a>
@@ -46,7 +27,7 @@
                 <a href="https://apex.tracker.gg/apex/profile/origin/psychotic/overview" target="_blank">apex</a>
                 <a href="https://r6.tracker.network/profile/pc/d1e" target="_blank">r6s</a>
                 <a href="https://tracker.gg/valorant/profile/riot/gianni%23dead/overview?season=all" target="_blank">valorant</a>
-				<a href="https://crystalmathlabs.com/view_stats.php?player=giannnnni" target="_blank">osrs</a>
+			    <a href="https://crystalmathlabs.com/view_stats.php?player=giannnnni" target="_blank">osrs</a>
             </span>
         </div>
     </div>
