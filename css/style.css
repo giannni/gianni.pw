@@ -14,7 +14,7 @@ body
 
 span
 {
-   
+   display: block;
 }
 
 a
@@ -81,4 +81,5 @@ img
     width: auto;
     height: auto;
     object-fit: contain;
+    border: #000000;
 }
