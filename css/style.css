@@ -86,6 +86,7 @@ h1
     background-color: rgba(109, 82, 117, 0.9);
     width: fit-content;
     height: fit-content;
+    display: flex;
 }
 
 /*img 
@@ -105,7 +106,7 @@ h1
 
 #pkmnshowcase
 {
-    display: inline;
+    display: inline-block;
     width: 64px;
     height: 64px;
     /*border: 1px solid rgb(74, 138, 255);
