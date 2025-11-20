@@ -4,19 +4,24 @@
 
 body 
 {
-    background: no-repeat center center fixed url('../img/background/gengar.gif'); 
+    /*background: no-repeat center center fixed url('../img/background/gengar.gif');*/
+    background-color: #1a1a1a;
     z-index: -5;
     background-size: cover; 
     image-rendering: pixelated; 
     image-rendering: crisp-edges; 
     image-rendering: optimizeSpeed; 
-    /*cursor: url(/img/other/csgo\ red\ crosshair.cur), auto;*/
+    cursor: url(/img/other/csgo\ red\ crosshair.cur), auto;
 }
 
 a
 {
-    color: #FFF;
+    color: #0099ff;
     text-decoration: none;
+    font-family: monospace;
+    font-size: 1em;
+    display: inline-block;
+    cursor: url(/img/other/csgo\ red\ crosshair.cur), auto;
 }
 
 ul
@@ -30,22 +35,22 @@ li
 {
     color: #FFF;
     display: inline-block;
-    font-family: PixelNes;
-    font-size: 0.9em;
+    font-family: monospace;
+    font-size: 1em;
 }
 
 p
 {
     color: #FFF;
     display: inline-block;
-    font-family: PixelNes;
+    font-family: monospace;
     font-size: 1em;
 }
 
 h1
 {
     font-size: 1.5em;
-    font-family: PixelNes;
+    font-family: monospace;
     color: #ffffff;
     text-shadow: #acacac;
     display: inline-block;
@@ -79,14 +84,14 @@ h1
 
 .info
 {
-    border-color: #b520fa;
-    border-style: solid;
+    /*border-color: #7d6d85;
+    border-style: solid;*/
     padding: 10px 15px;
     margin: auto;
-    background-color: rgba(109, 82, 117, 0.9);
+    /*background-color: rgba(109, 82, 117, 0.9);*/
     width: fit-content;
     height: fit-content;
-    display: flex;
+    display: inline-block;
 }
 
 /*img 
