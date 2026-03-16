@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>config</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+</head>
+<p>
+//controls<br>
+unbind "mouse4"<br>
+unbind "mouse5"<br>
+unbind "alt"<br>
+unbind "z"<br>
+unbind "x"<br>
+unbind "c"<br>
+unbind "v"<br>
+unbind "y"<br>
+unbind "m"<br>
+unbind "u"<br>
+unbind "n"<br>
+bind "mouse4" "+voicerecord"<br>
+bind "m" "toggle cl_mute_enemy_team 1 0"<br>
+bind "u" "say_team"<br>
+bind "y" "say"<br>
+bind "z" "toggle spec_show_xray 1 0"<br>
+bind "c" "demoui"<br>
+bind "n" "noclip"<br>
+
+<br>
+
+//crosshair<br>
+cl_crosshairdot	"0"<br>
+cl_crosshair_drawoutline "0"<br>
+cl_crosshairstyle "4"<br>
+cl_crosshair_sniper_width "1"<br>
+cl_crosshair_recoil	"0"<br>
+cl_crosshair_friendly_warning "0"<br>
+
+<br>
+
+//Thin Crosshair<br>
+bind "l" "cl_crosshairgap -3.0;cl_crosshairsize 1.5;cl_crosshairthickness 0.5;cl_crosshaircolor 1;cl_crosshaircolor_b 255;cl_crosshaircolor_r 255;cl_crosshaircolor_g 255;"<br>
+//Black Crosshair<br>
+bind "j" "cl_crosshairgap -4.0;cl_crosshairsize 1.5;cl_crosshairthickness 1.0;cl_crosshaircolor 5;cl_crosshaircolor_b 0;cl_crosshaircolor_r 0;cl_crosshaircolor_g 0;"<br>
+//White Crosshair<br>
+bind "h" "cl_crosshairgap -4.0;cl_crosshairsize 1.5;cl_crosshairthickness 1.0;cl_crosshaircolor 5;cl_crosshaircolor_b 255;cl_crosshaircolor_r 255;cl_crosshaircolor_g 255;"<br>
+//Monesy Crosshair<br>
+bind "k" "cl_crosshairgap -4.0;cl_crosshairsize 1.0;cl_crosshairthickness 1;cl_crosshaircolor 1;cl_crosshaircolor_b 255;cl_crosshaircolor_r 255;cl_crosshaircolor_g 255;"<br>
+
+<br>
+
+//viewmodel<br>
+viewmodel_fov "68"<br>
+viewmodel_offset_x "2.0"<br>
+viewmodel_offset_y "1.5"<br>
+viewmodel_offset_z "-2.0"<br>
+viewmodel_presetpos "3"<br>
+
+<br>
+
+//radar<br>
+cl_radar_scale "0.9"<br>
+cl_radar_rotate "1"<br>
+cl_radar_square_with_scoreboard "1"<br>
+
+<br>
+
+//audio<br>
+volume "0.3"<br>
+snd_tensecondwarning_volume "0.45"<br>
+snd_musicvolume "0.3"<br>
+snd_menumusic_volume "0"<br>
+snd_roundstart_volume "0"<br>
+snd_roundend_volume "0"<br>
+snd_deathcamera_volume "0"<br>
+
+<br>
+
+//mouse<br>
+sensitivity "0.9"<br>
+
+<br>
+
+//other<br>
+fps_max "0"<br>
+fps_max_ui "0"<br>
+cl_showfps "0"<br>
+cl_showpos "0"<br>
+cl_silencer_mode "0"<br>
+joystick "0"<br>
+mm_dedicated_search_maxping "200"<br>
+hud_scaling "0.95"<br>
+r_show_build_info "0"<br>
+engine_no_focus_sleep "0"<br>
+cl_teamid_overhead_fade_near_crosshair "1"<br>
+cl_teamid_overhead_mode "1"<br>
+
+<br>
+
+//write config<br>
+host_writeconfig<br>
+</P>
